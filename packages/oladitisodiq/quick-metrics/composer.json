@@ -1,0 +1,23 @@
+{
+    "name": "oladitisodiq/quick-metrics",
+    "description": "i am using you to test",
+    "autoload": {
+        "psr-4": {
+            "Oladitisodiq\\QuickMetrics\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "oladitisodiq",
+            "email": "oladitisodiq@email.com"
+        }
+    ],
+    "require": {},
+    "extra":{
+        "laravel": {
+            "providers":[
+                "Oladitisodiq\\QuickMetrics\\QuickmetricsServiceProvider"
+            ]
+        }
+    }
+}
